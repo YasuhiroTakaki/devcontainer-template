@@ -19,6 +19,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-ins
     silversearcher-ag \
     python3-dev \
     python3-pip \
+    p7zip-full \
     && apt clean \
     && rm -Rf /var/lib/apt/lists/*
 
