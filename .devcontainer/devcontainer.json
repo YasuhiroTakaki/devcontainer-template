@@ -5,7 +5,7 @@
         "context": "../../../"
     },
 
-    "runArgs": ["--gpus", "all","--shm-size","4gb"],
+    "runArgs": ["--gpus", "all","--shm-size","32gb"],
     "workspaceFolder": "/home/user0/work",
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/user0/work,type=bind,consistency=cached",
 
